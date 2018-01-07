@@ -18,7 +18,7 @@ th,b{color:#0B1013;}
   margin-top:0;
   padding-left:0;display:none;}
 .menu-button{
-  width:105px;
+  width:55px;border-radius: 25px;
   color:white;
   font-size:25px;
   float:right;
@@ -27,7 +27,7 @@ th,b{color:#0B1013;}
   }
 
 .menu-button-checkbox{
-  position:fixed;top:10;right:0px;width:115px;height:40px;
+  position:fixed;top:10;right:0px;width:55px;height:40px;
   opacity:0;}
 
 li{
