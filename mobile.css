@@ -4,15 +4,15 @@
 h1{color:#9E7A7A}
 p,table{color:#434343}
 th,b{color:#0B1013;}
-.container{width:auto;margin:auto;border:3px solid yellow;}
+.container{width:auto;margin:auto;}
 /*共同  */
 /* 導覽列 */
-#nav{border:1px solid pink;position:fixed;top:0px;right:0px;z-index:100;}
+#nav{position:fixed;top:0px;right:0px;z-index:100;}
 .menu-button-checkbox:checked ~ #menu {
     display: block;
   }
 #menu{
-  border:1px solid ;width:150px;height:100%;
+  width:150px;height:100%;
   border-radius:10px
   ;position:fixed;top:40px;right:10px;
   margin-top:0;
@@ -24,7 +24,6 @@ th,b{color:#0B1013;}
   float:right;
   line-height:40px;
   padding:0 15px;
-  boder:0;
   }
 
 .menu-button-checkbox{
@@ -32,7 +31,7 @@ th,b{color:#0B1013;}
   opacity:0;}
 
 li{
-  border:0px ;width:105px;
+  width:105px;
   border-radius:10px;list-style-type:none;
   padding:10px ;margin:5px 0px;
   text-align:center;background-color:#9E7A7A
@@ -45,33 +44,33 @@ a:hover{color:#9E7A7A;font-size:800;}
 
 /* 以上是導覽列 */
 /*  內容頁*/
-#contect{border:1px solid green;position:relative;top:80px;left:0px;}
+#contect{position:relative;top:80px;left:0px;}
 table{width:70%;margin:auto;padding:10px;letter-spacing:1px;line-height:24px;}
 
 /*  內容頁 */
 /* about me */
-#about{border:1px solid green;padding: 85px 0;}
+#about{padding: 85px 0;}
 #my-photo{
   margin:10px 0px;
   width:100%;height:auto;
   border-radius:88px;
   border:3px solid #9E7A7A;}
 #about img{width:200px;height:200px;border-radius:88px;}
-#my-info{border:3px solid blue ;width:80%;margin:auto;
+#my-info{width:80%;margin:auto;
          text-align:center;}
 
 /* about me */
 /* my-work */
-#my-work{border:1px solid red;text-align:center;padding: 85px 0;}
-#work-items{border:1px solid ;max-width:100%;margin:auto;}
-.item-info{border:1px solid pink;display:inline-block;width:100%;height:auto;margin:5px;position:relative;}
+#my-work{text-align:center;padding: 85px 0;}
+#work-items{max-width:100%;margin:auto;}
+.item-info{display:inline-block;width:100%;height:auto;margin:5px;position:relative;}
 .item-info img{max-width:40%;height:auto;}
 .item-word{text-align:center;}
 #my-work a{text-decoration: none;color:white;}
 button{background-color:#9E7A7A;width: 120px;height: 40px;border-radius: 10px; }
 /* my-work */
 /* contact */
-#contact{border:1px solid green;padding: 85px 0;margin:90px 0;}
+#contact{padding: 85px 0;margin:90px 0;}
 #contact a{text-decoration:none;color:#0B1013;}
 #contact img{max-width:40%;}
 /* contact */
