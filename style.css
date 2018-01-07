@@ -6,9 +6,8 @@ th,b{color:#0B1013;}
 .container{width:90%;margin:auto;}
 /*共同  */
 /* 導覽列 */
-#nav{border:1px solid pink;}
 #menu{
-  border:1px solid red;width:70%;height:50px;margin:auto;
+  width:70%;height:50px;margin:auto;
   border-radius:10px
   ;position:fixed;top:15px;left:230px;z-index:100;}
 .menu-button{display:none;}
@@ -27,24 +26,24 @@ a:hover{color:#9E7A7A;font-size:800;}
 
 /* 以上是導覽列 */
 /*  內容頁*/
-#contect{border:1px solid green;position:relative;top:80px;left:0px;}
+#contect{position:relative;top:80px;left:0px;}
 table{width:70%;margin:auto;padding:10px;letter-spacing:1px;line-height:24px;}
 #my-photo{position:relative;top:35px;left:15px;margin:10px;}
 /*  內容頁 */
 /* about me */
-#about{border:1px solid green;padding: 85px 0;}
+#about{padding: 130px 0;}
 #my-photo{
   width:210px;height:220px;
   border-radius:88px;
   border:3px solid #9E7A7A;float:left;}
 #about img{width:200px;height:200px;border-radius:88px;}
-#my-info{border:3px solid blue ;width:80%;margin:auto;
+#my-info{width:80%;margin:auto;
          text-align:center;}
 
 /* about me */
 /* my-work */
-#my-work{border:1px solid red;text-align:center;padding: 85px 0;}
-#work-items{border:1px solid ;width:80%;margin:auto;}
+#my-work{text-align:center;padding: 130px 0;}
+#work-items{width:80%;margin:auto;}
 .item-info{border:1px solid pink;display:inline-block;width:23%;height:300px;margin:5px;position:relative;}
 .item-info img{width: 100px;height:130px;}
 .item-word{text-align:center;}
@@ -52,7 +51,7 @@ table{width:70%;margin:auto;padding:10px;letter-spacing:1px;line-height:24px;}
 button{background-color:#9E7A7A;width: 120px;height: 40px;border-radius: 10px; }
 /* my-work */
 /* contact */
-#contact{border:1px solid green;padding: 85px 0;margin:90px 0;}
+#contact{padding: 130px 0;margin:90px 0;}
 #contact a{text-decoration:none;color:#0B1013;}
 #contact img{width:200px;height:200px;}
 /* contact */
