@@ -62,7 +62,7 @@ table{width:70%;margin:auto;padding:10px;letter-spacing:1px;line-height:24px;}
 /* my-work */
 #my-work{text-align:center;padding: 85px 0;}
 #work-items{max-width:100%;margin:auto;}
-.item-info{display:inline-block;width:100%;height:auto;margin:5px;position:relative;}
+.item-info{border:1px solid pink;display:inline-block;width:100%;height:auto;margin:5px;position:relative;}
 .item-info img{max-width:40%;height:auto;}
 .item-word{text-align:center;}
 #my-work a{text-decoration: none;color:white;}
