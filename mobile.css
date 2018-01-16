@@ -48,7 +48,7 @@ table{width:70%;margin:auto;padding:10px;letter-spacing:1px;line-height:24px;}
 
 /*  內容頁 */
 /* about me */
-#about{padding: 85px 0;}
+#about{padding: 25px 0;}
 #my-photo{
   margin:10px 0px;
   width:100%;height:auto;
@@ -63,7 +63,7 @@ table{width:100%}
 
 /* about me */
 /* my-work */
-#my-work{text-align:center;padding: 130px 0;}
+#my-work{text-align:center;padding: 25px 0;}
 #work-items{width:100%;margin:auto;}
 .item-info{border:1px solid #9E7A7A;
   background-image: url("img/work1.png");
@@ -84,7 +84,7 @@ table{width:100%}
 #my-work a{text-decoration: none;color:white;}
 /* my-work */
 /* contact */
-#contact{padding: 85px 0;margin:90px 0;}
+#contact{padding: 25px 0;}
 #contact a{text-decoration:none;color:#0B1013;}
 #contact img{max-width:40%;}
 /* contact */
