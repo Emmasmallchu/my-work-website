@@ -56,19 +56,32 @@ table{width:70%;margin:auto;padding:10px;letter-spacing:1px;line-height:24px;}
 #about img{width:200px;height:200px;border-radius:88px;}
 #my-info{width:100%;margin:auto;
          text-align:center;}
+#my-info td{text-align: left;}
 th{width:200px;border:1px solid #9E7A7A;;font-size:12px;}
 td{border:1px solid #9E7A7A;;width:500px;font-size:12px;}
 table{width:100%}
 
 /* about me */
 /* my-work */
-#my-work{text-align:center;padding: 85px 0;}
-#work-items{max-width:100%;margin:auto;}
-.item-info{border:1px solid #9E7A7A;width:700px;display:inline-block;width:100%;height:auto;margin:5px;position:relative;}
-.item-info img{max-width:40%;height:auto;}
-.item-word{text-align:center;}
+#my-work{text-align:center;padding: 130px 0;}
+#work-items{width:100%;margin:auto;}
+.item-info{border:1px solid #9E7A7A;
+  background-image: url("img/work1.png");
+  background-image-size:cover;
+   background-repeat: no-repeat; 
+  display:inline-block;
+  width:300px;height:370px;
+  margin:10px;position:relative;z-index:0;}
+.item-info img{width: 100%;}
+.item-info h4{z-index:1;
+  position: relative;top:120px;color:black;}
+.item-info >p{position: relative;top:170px;left: 0px;z-index:1;
+  font-size:16px;letter-spacing:4px;line-height:20px;}
+.item-info>button{width:300px;height: 55px;background-color:rgba(158, 122, 122, 0.3);
+  position: relative;top:165px;left: 0px;
+  opacity: 1;}
+.item-info>button:hover{background-color:rgba(158, 122, 122, 0.8);}  
 #my-work a{text-decoration: none;color:white;}
-button{background-color:#9E7A7A;width: 120px;height: 40px;border-radius: 10px; }
 /* my-work */
 /* contact */
 #contact{padding: 85px 0;margin:90px 0;}
